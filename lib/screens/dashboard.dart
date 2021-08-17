@@ -1,5 +1,4 @@
-import 'package:bitebunk/screens/contacts_list.dart';
-
+import 'package:bytebank/screens/contacts_list.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatelessWidget {
@@ -15,7 +14,7 @@ class Dashboard extends StatelessWidget {
         children: <Widget>[
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Image.asset('images/logo_ati.png'),
+            child: Image.asset('images/bytebank_logo.png'),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
